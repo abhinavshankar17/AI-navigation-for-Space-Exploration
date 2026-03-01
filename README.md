@@ -2,13 +2,13 @@
 
 AI-powered autonomous navigation platform for Mars rovers and deep-space missions.
 
-## 🌌 Overview
+## Overview
 
 Autonomous AI Navigation is a SpaceTech + Generative AI project designed to enable rovers and spacecraft to navigate independently in high-latency and unpredictable environments such as Mars and deep space.
 
 Traditional space missions suffer from communication delays of up to 20 minutes between Earth and Mars, limiting real-time control and increasing mission risk. Our platform introduces an AI-driven autonomy layer that allows robotic systems to perceive, predict, and navigate terrain without waiting for human intervention.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Space missions are constrained by:
 - Communication latency
@@ -18,16 +18,16 @@ Space missions are constrained by:
 
 There is a need for an intelligent system capable of real-time autonomous navigation in extreme extraterrestrial environments.
 
-## 💡 Solution
+##  Solution
 
 We developed an AI-powered autonomous navigation system that combines:
-- 🧠 **Computer Vision** for terrain understanding
-- 🔮 **Generative AI** for synthetic terrain simulation and prediction
-- 🎮 **Reinforcement Learning** for adaptive path planning
-- 🌐 **MERN stack** for mission control dashboard and analytics
-- 🔌 **WebSockets** for real-time telemetry streaming
+-  **Computer Vision** for terrain understanding
+-  **Generative AI** for synthetic terrain simulation and prediction
+-  **Reinforcement Learning** for adaptive path planning
+-  **MERN stack** for mission control dashboard and analytics
+-  **WebSockets** for real-time telemetry streaming
 
-## 🏗️ System Architecture
+##  System Architecture
 ```
 Rover Sensors / AI Model
         ↓
@@ -38,43 +38,43 @@ MongoDB (Mission Logs & Telemetry)
 React Mission Control Dashboard
 ```
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
-### 🧩 Frontend
+###  Frontend
 - React.js
 - Chart.js / Recharts
 - WebSocket client
 - Dark space-themed UI
 
-### 🖥️ Backend
+###  Backend
 - Node.js
 - Express.js
 - Socket.io (WebSockets)
 - REST APIs
 
-### 🗄️ Database
+###  Database
 - MongoDB
 - Mongoose
 
-### 🤖 AI & Simulation
+###  AI & Simulation
 - Python
 - PyTorch / TensorFlow
 - OpenCV
 - Stable-Baselines3 (PPO)
 - ROS + Gazebo / Isaac Sim
 
-## 📊 Key Features
-- ✅ Live rover status monitoring
-- 🗺️ Real-time location tracking & map generation
-- 🚧 Obstacle detection visualization
-- 📈 Reinforcement learning reward curve
-- 🔋 Battery monitoring graph
-- 🌡️ Rover health & temperature tracking
-- 📹 Live camera feed integration
-- 🔄 Manual / Autonomous mode switching
-- 📜 Expandable telemetry and mission logs
+##  Key Features
+- Live rover status monitoring
+-  Real-time location tracking & map generation
+-  Obstacle detection visualization
+-  Reinforcement learning reward curve
+-  Battery monitoring graph
+-  Rover health & temperature tracking
+-  Live camera feed integration
+-  Manual / Autonomous mode switching
+-  Expandable telemetry and mission logs
 
-## 🧠 Generative AI Core
+##  Generative AI Core
 
 To overcome limited real Mars data, we use Generative AI to:
 - Create synthetic planetary terrains
@@ -84,35 +84,18 @@ To overcome limited real Mars data, we use Generative AI to:
 
 This makes the system scalable and mission-ready.
 
-## 💼 Business Model
-- Platform licensing for space agencies
-- Mission-based deployment contracts
-- Long-term AI autonomy support
-- Scalable to lunar missions, asteroid mining, and extreme Earth environments
-
-## 🌍 Market Opportunity
+##  Market Opportunity
 
 The growing SpaceTech industry and rise of commercial space missions demand scalable, autonomous navigation systems. Our platform addresses a critical gap in mission autonomy and risk reduction.
 
-## 🧪 Project Status
 
-🚧 **Prototype / Pre-Seed Stage**
-- Simulation-based training completed
-- MERN dashboard operational
-- Hardware integration in progress
-
-## 👥 Team
-- 🛠 **Hardware Engineer** – Rover & sensor integration
-- 🤖 **AI Engineer** – Perception, GenAI & RL models
-- 🌐 **MERN Developer** – Mission dashboard & backend infrastructure
-
-## 🚀 Future Roadmap
+##  Future Roadmap
 - Improve terrain generation realism
 - Deploy advanced RL algorithms
 - Edge AI deployment on hardware
 - Pilot testing with real rover prototypes
 
-## 📌 Conclusion
+##  Conclusion
 
 We are building the intelligence layer for the next generation of autonomous space exploration.
 
